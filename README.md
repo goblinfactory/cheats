@@ -11,7 +11,7 @@ random cut and paste cheats that I need from time to time
 
 > function prompt { $pd = new-object System.IO.FileInfo $PWD;  write-host  "$((''+$PWD).replace($HOME, '').replace($pd.Name, ''))"  -ForegroundColor darkgray -nonewline; write-host $pd.Name -ForegroundColor green; return '> '; }
 
-
+![better-prompt.png(better-prompt.png)
 
 ```powershell
 function prompt { 
